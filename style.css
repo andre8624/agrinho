@@ -5,10 +5,9 @@ body{
     background:linear-gradient(90deg, rgb(55, 91, 92),rgb(204, 204, 42));
 }
 hearder{
+    min-height: 150px;
     background-color:rgb(83, 104, 50);
     padding-top:40px;
-    display: flex;
-    justify-content: space-around;
     align-items: center 
     
         }
