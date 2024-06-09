@@ -8,7 +8,6 @@ hearder{
     display: flex;
     justify-content: space-around;
     background-color:rgb(83, 104, 50);
-    padding-top:40px;
     align-items: center 
         }
  hearder > h1{
