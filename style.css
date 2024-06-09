@@ -2,7 +2,7 @@
 
 }
 body{
-    background:linear-gradient(top, blue,green, yellow);
+    background:linear-gradient(top, rgb(116, 116, 224),rgb(64, 107, 64), rgb(204, 204, 42));
 }
 hearder{
     background-color:rgb(43, 58, 18) ;
