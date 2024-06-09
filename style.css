@@ -5,8 +5,7 @@ body{
     background:linear-gradient(90deg, rgb(55, 91, 92),rgb(204, 204, 42));
 }
 hearder{
-    border-left-width: 1358px;
-    border-right-width: 1358px;
+    padding-left: 40px;
     position: sticky;
     top: 0;
     display: flex;
