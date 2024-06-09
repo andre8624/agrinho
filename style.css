@@ -12,3 +12,8 @@ hearder{
     align-items: center 
     
         }
+ hearder > h1{
+    color:black ;
+    font-size: 3em;
+    margin-bottom: 20px;
+ }
