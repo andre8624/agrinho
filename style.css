@@ -6,7 +6,7 @@ body{
 }
 hearder{
     background-color:rgb(83, 104, 50);
-    padding-left: 200px;
+    padding-left: 250px;
     display: flex;
     justify-content: space-around;
     align-items: center 
