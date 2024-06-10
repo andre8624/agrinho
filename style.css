@@ -5,6 +5,7 @@ body{
     background:linear-gradient(90deg, rgb(28, 58, 73),rgb(204, 204, 42));
 }
 hearder{
+    background:linear-gradient(90deg, rgb(31, 31, 184), rgb(172, 172, 73) );
     margin-right: -8px;
     margin-left: -10px;
     margin-top: -10px;
@@ -12,7 +13,6 @@ hearder{
     top: 0;
     display: flex;
     justify-content: space-around;
-    background: radial-gradient(90deg, blue, yellow);
     align-items: center 
         }
  hearder > h1{
