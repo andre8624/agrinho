@@ -2,7 +2,7 @@
 
 }
 body{
-    background:radial-gradient(90deg,blue,yellow)
+    background:linear-gradient(top,blue,yellow)
 }
 hearder{ 
     
