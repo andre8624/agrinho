@@ -12,7 +12,7 @@ hearder{
     top: 0;
     display: flex;
     justify-content: space-around;
-    background-color:rgb(83, 104, 50);
+    background: radial-gradient(90deg, blue, yellow);
     align-items: center 
         }
  hearder > h1{
