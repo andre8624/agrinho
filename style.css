@@ -1,8 +1,14 @@
 *{
 
 }
+
 body{
     background:linear-gradient(80deg,rgb(219, 207, 93),rgb(6, 97, 34))
+}
+body > p{
+    color: black;
+    font-size: 2em;
+    
 }
 hearder{ 
     
@@ -21,3 +27,4 @@ hearder{
     font-size: 3em;
     margin-bottom: 30px;
  }
+ 
