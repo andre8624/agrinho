@@ -10,8 +10,6 @@ hearder{
     margin-right: -8px;
     margin-left: -10px;
     margin-top: -10px;
-    position: sticky;
-    top: 0;
     display: flex;
     justify-content: space-around;
     align-items: center 
