@@ -8,7 +8,7 @@ body{
 body > p{
     color: black;
     font-size: 2em;
-    
+
 }
 hearder{ 
     
@@ -23,7 +23,7 @@ hearder{
     align-items: center 
         }
  hearder > h1{
-    color:black ;
+    color:rgb(255, 255, 255) ;
     font-size: 3em;
     margin-bottom: 30px;
  }
