@@ -5,6 +5,10 @@
 body{
     background-color: white;
 }
+body > h2{
+    color: black;
+    font-size: 7em;
+ }
 hearder{ 
     margin-right: -8px;
     margin-left: -10px;
@@ -26,7 +30,4 @@ hearder{
     color: black;
     font-size: 2em;
  }
- body > h2{
-    color: black;
-    font-size: 7em;
- }
+ 
