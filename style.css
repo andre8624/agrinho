@@ -4,7 +4,8 @@
 body{
     background:linear-gradient(90deg, rgb(28, 58, 73),rgb(204, 204, 42));
 }
-hearder{
+hearder{ 
+    padding: 40px;
     background:linear-gradient(90deg, rgb(13, 99, 5), rgb(178, 243, 152) );
     margin-right: -8px;
     margin-left: -10px;
