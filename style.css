@@ -20,7 +20,7 @@ hearder{
     margin-bottom: 30px;
  }
  section{
-    
+    background-color: transparent;
  }
  section > p{
     color: black;
