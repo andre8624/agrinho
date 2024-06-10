@@ -2,11 +2,11 @@
 
 }
 body{
-    background:linear-gradient(80deg,rgb(187, 93, 30),rgb(216, 201, 63))
+    background:linear-gradient(80deg,rgb(23, 187, 31),rgb(216, 201, 63))
 }
 hearder{ 
     
-    background:linear-gradient(90deg, rgb(102, 5, 5), rgb(197, 105, 62) );
+    background:linear-gradient(90deg, rgb(148, 13, 13), rgb(197, 105, 62) );
     margin-right: -8px;
     margin-left: -10px;
     margin-top: -10px;
