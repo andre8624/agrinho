@@ -19,7 +19,10 @@ hearder{
     font-size: 3em;
     margin-bottom: 30px;
  }
- body > p{
+ section{
+    
+ }
+ section > p{
     color: black;
     font-size: 2em;
  }
