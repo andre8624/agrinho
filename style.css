@@ -2,7 +2,7 @@
 
 }
 body{
-    background: linear-gradient(rgb(37, 141, 77),rgb(12, 170, 12));
+    background-color: darkgreen;
 
 body > h2{
     color: black;
