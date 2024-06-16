@@ -38,6 +38,7 @@ header{
    background-color: #333;
    color: #fff;
    text-align: center;
+   float: none;
 }
 
 nav ul {
