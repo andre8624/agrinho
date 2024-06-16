@@ -12,6 +12,7 @@ hearder{
     margin-right: -8px;
     margin-left: -10px;
     margin-top: -10px;
+    display:flex;
     background-color:darkblue;
     display: flex;
     justify-content: space-around;
