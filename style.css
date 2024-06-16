@@ -35,7 +35,8 @@ header{
     font-size: 2em;
  }
  nav {
-   width: 110%;
+   margin-top: 50%;
+   
    background-color: #333;
    color: #fff;
    text-align: center;
