@@ -12,7 +12,7 @@ hearder{
     margin-right: -8px;
     margin-left: -10px;
     margin-top: -10px;
-    background: linear-gradient(darkblue,rgb(25, 0, 255));
+    background-color:darkblue;
     display: flex;
     justify-content: space-around;
     align-items: center 
