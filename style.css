@@ -35,10 +35,11 @@ header{
     font-size: 2em;
  }
  nav {
+   width: 50%;
    background-color: #333;
    color: #fff;
    text-align: center;
-   float: none;
+   
 }
 
 nav ul {
