@@ -3,6 +3,9 @@
  padding: 0;
  box-sizing: border-box;
 }
+.root{
+
+}
 body{
     background-color:rgb(237, 247, 185);
 }
@@ -12,10 +15,6 @@ body > h2{
  }
 header{  
   position: relative;
-   padding: 12px;
-    margin-right: -8px;
-    margin-left: -10px;
-    margin-top: -10px;
     display:flex;
     background: linear-gradient(rgb(37, 141, 77),green);
     display: flex;
