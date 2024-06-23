@@ -67,8 +67,11 @@ img{
    max-width: 100%;
    height: auto;
 }
-section.batata{
+section{
+   img{
    align-items: center;
    display: flex;
    background-color: transparent;
+   }
+
 }
