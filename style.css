@@ -64,6 +64,7 @@ nav ul li a:hover {
    background-color: #185c23;
 }
 img{
+   align-items: center;
    max-width: 100%;
    height: auto;
 }
