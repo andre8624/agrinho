@@ -7,7 +7,6 @@
 
 }
 body{
-   align-items: center;
     background-color:rgb(237, 247, 185);
 }
 body > h2{
@@ -31,7 +30,6 @@ header{
  }
  section{
     background-color: transparent;
-    align-items: center;
  }
  section > p{
     color: black;
@@ -68,4 +66,7 @@ nav ul li a:hover {
 img{
    max-width: 100%;
    height: auto;
+}
+.batata{
+   float: right;
 }
