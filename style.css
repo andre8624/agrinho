@@ -7,6 +7,7 @@
 
 }
 body{
+   align-items: baseline;
     background-color:rgb(237, 247, 185);
 }
 body > h2{
