@@ -26,7 +26,6 @@ header{
  header > h1{
     color:rgb(255, 255, 255) ;
     font-size: 3em;
-    
     margin-bottom: 30px;
  }
  section{
@@ -37,7 +36,6 @@ header{
     font-size: 2em;
  }
  nav {
-   padding: 10px;
   background-color: rgb(37, 141, 77);
    text-align: center;
    
