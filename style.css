@@ -30,6 +30,7 @@ header{
  }
  section{
     background-color: transparent;
+    align-items: center;
  }
  section > p{
     color: black;
@@ -66,12 +67,4 @@ nav ul li a:hover {
 img{
    max-width: 100%;
    height: auto;
-}
-section{
-   img{
-   align-items: center;
-   display: flex;
-   background-color: transparent;
-   }
-
 }
