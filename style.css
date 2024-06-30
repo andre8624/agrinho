@@ -28,12 +28,14 @@ header{
     font-size: 3em;
     margin-bottom: 30px;
  }
- 
+ section.potato{
+   font-size: 2em;
+ }
  section{
     background-color: transparent;
     display: flex;
    text-align: center;
-   font-size: 2em;
+   
  }
  section.onion > p{
     color: black;
