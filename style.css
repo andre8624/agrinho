@@ -29,6 +29,8 @@ header{
  }
  section{
     background-color: transparent;
+    display: flex;
+    align-items: center;
  }
  section.onion > p{
     color: black;
