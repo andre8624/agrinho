@@ -30,7 +30,7 @@ header{
  section{
     background-color: transparent;
  }
- section,onion > p{
+ section.onion > p{
     color: black;
     font-size: 2em;
     font-weight: bold
