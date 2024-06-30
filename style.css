@@ -28,6 +28,11 @@ header{
     font-size: 3em;
     margin-bottom: 30px;
  }
+ section.potato{
+   color: black;
+   font-size: 5em;
+   text-align: center;
+ }
  section{
     background-color: transparent;
     display: flex;
