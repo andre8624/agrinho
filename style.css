@@ -33,6 +33,7 @@ header{
  section > p{
     color: black;
     font-size: 2em;
+    font-weight: bold
  }
  nav {
    padding: 10px;
@@ -67,5 +68,5 @@ img{
    height: auto;
 }
 section.potato > p{
-   font-size: 3em;
+   font-size: 2em;
 }
