@@ -30,7 +30,7 @@ header{
  section{
     background-color: transparent;
     display: flex;
-    align-items: center;
+   text-align: center;
  }
  section.onion > p{
     color: black;
