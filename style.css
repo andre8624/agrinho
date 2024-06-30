@@ -33,6 +33,7 @@ header{
     background-color: transparent;
     display: flex;
    text-align: center;
+   font-size: 2em;
  }
  section.onion > p{
     color: black;
