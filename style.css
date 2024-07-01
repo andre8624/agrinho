@@ -18,10 +18,12 @@ body > h2{
 header{  
   position: relative;
     display:flex;
+    text-align: center;
     background: linear-gradient(rgb(37, 141, 77),green);
     display: flex;
     justify-content: space-around;
-    align-items: center 
+    align-items: center
+     
         }
  header > h1{
     color:rgb(255, 255, 255) ;
