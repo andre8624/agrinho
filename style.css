@@ -92,5 +92,6 @@ section.carrot {
    justify-content: center;
 }
 .silver {
-   margin-bottom: 20px;
-}
+   border-left: 2px solid transparent; 
+   height: 100px; 
+   margin: 0 20px;}
