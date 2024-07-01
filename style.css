@@ -83,7 +83,7 @@ img{
    height: auto;
 }
 section.potato > p{
-   font-size: 2em;
+   font-size: 1em;
 }
 section.carrot {
    display: flex;
