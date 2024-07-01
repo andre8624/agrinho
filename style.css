@@ -37,11 +37,17 @@ header{
    text-align: center;
    
  }
+ 
  section.onion > p{
     color: black;
     font-size: 2em;
-    font-weight: bold
+    font-weight: bold 
  }
+ section.gold > p{
+   color: black;
+   font-size: 2em;
+   
+}
  nav {
    padding: 10px;
   background-color: rgb(37, 141, 77);
