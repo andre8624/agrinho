@@ -5,12 +5,12 @@
 }
 
 body {
-   background-color: #e6f7e6; /* Verde muito claro */
+   background-color: #e6f7e6; 
    font-family: 'Roboto', sans-serif;
    line-height: 1.6;
 }
 
-/* Ajustes responsivos para o corpo */
+
 @media (max-width: 600px) {
    body {
        font-size: 14px;
@@ -28,7 +28,7 @@ header {
    justify-content: center;
    align-items: center;
    text-align: center;
-   background: linear-gradient(#4a8c4a, #43a05a, #53815e ); /* Verde escuro e verde claro moderno */
+   background: linear-gradient(#4a8c4a,#53815e , #43a05a );
    padding: 20px;
 }
 
@@ -39,7 +39,7 @@ header > h1 {
 }
 
 body > h2 {
-   color: #2d3436; /* Cinza escuro moderno */
+   color: #2d3436; 
    font-size: clamp(2rem, 8vw, 5em);
    text-align: center;
    margin: 20px 0;
@@ -62,7 +62,7 @@ section.potato > p {
 
 nav {
    padding: 10px;
-   background-color: #4a8c4a; /* Verde escuro moderno */
+   background-color: #4a8c4a; 
    text-align: center;
 }
 
@@ -126,7 +126,7 @@ footer a.gradient {
 }
 
 p {
-   font-size: clamp(4rem, 4vw, 3rem);
+   font-size: clamp(1.5rem, 4vw, 3rem);
    font-weight: bold;
    line-height: 1.1;
    margin: 1rem 0;
