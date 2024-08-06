@@ -24,7 +24,6 @@ body {
 header {
    position: relative;
    display: flex;
-   justify-content: center;
    align-items: center;
    text-align: center;
    background: linear-gradient(#346934, #27883e, #56b96f);
