@@ -8,6 +8,10 @@
        font-size: 14px;
    }
 }
+.container {
+   width: 80%; /* A largura será 80% da tela */
+   padding: 2rem; /* O padding será relativo ao tamanho da fonte */
+}
 .root{
 
 }
