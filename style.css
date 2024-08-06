@@ -24,6 +24,7 @@ body {
 header {
    position: relative;
    display: flex;
+   justify-content: center;
    align-items: center;
    text-align: center;
    background: linear-gradient(#346934, #27883e, #56b96f);
@@ -83,7 +84,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-   background-color: #6cb85d; 
+   background-color: #2d751f; 
 }
 
 img {
