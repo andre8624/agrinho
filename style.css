@@ -103,7 +103,7 @@ section.carrot {
          display: flex;
          justify-content: space-around;
          align-items:center;
-         border-radius: 2px;
+         border-radius: 0.5px;
          border: #95a9af;
        
    }
