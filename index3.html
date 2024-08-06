@@ -9,8 +9,57 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Site Responsivo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .item {
+            flex: 1 1 300px;
+            padding: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            background-color: #f4f4f4;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        @media (max-width: 600px) {
+            body {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">
+            <h2>Item 1</h2>
+            <img src="https://via.placeholder.com/300" alt="Imagem 1">
+        </div>
+        <div class="item">
+            <h2>Item 2</h2>
+            <img src="https://via.placeholder.com/300" alt="Imagem 2">
+        </div>
+        <div class="item">
+            <h2>Item 3</h2>
+            <img src="https://via.placeholder.com/300" alt="Imagem 3">
+        </div>
+    </div>
     <title>Sustentabilidade</title>
 </head>
+
 <body>
     <nav>
       <ul>

@@ -9,8 +9,8 @@
    }
 }
 .container {
-   width: 80%; /* A largura será 80% da tela */
-   padding: 2rem; /* O padding será relativo ao tamanho da fonte */
+   width: 80%; 
+   padding: 2rem; 
 }
 .root{
 
