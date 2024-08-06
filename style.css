@@ -28,7 +28,7 @@ header {
    justify-content: center;
    align-items: center;
    text-align: center;
-   background: linear-gradient(#2c5a2c,#27883e , #56b96f );
+   background: linear-gradient(#346934,#27883e , #56b96f );
    padding: 20px;
 }
 
@@ -62,7 +62,7 @@ section.potato > p {
 
 nav {
    padding: 10px;
-   background-color: #2c5a2c; 
+   background-color: #346934; 
    text-align: center;
 }
 
