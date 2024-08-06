@@ -68,11 +68,14 @@ nav {
 nav ul {
    list-style-type: none;
    padding: 0;
+   display: flex; /* Exibir os itens em linha */
+   flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+   justify-content: center; /* Centraliza os itens */
 }
 
 nav ul li {
    display: inline;
-   margin-right: 10px;
+   margin: 5px; /* Adiciona um pouco de margem entre os itens */
 }
 
 nav ul li a {
@@ -87,18 +90,28 @@ nav ul li a:hover {
    background-color: #113f08; 
 }
 
+/* Ajustes para telas pequenas */
+@media (max-width: 600px) {
+   nav ul {
+       flex-direction: column; /* Muda para coluna em telas pequenas */
+       align-items: center; /* Centraliza os itens verticalmente */
+   }
+
+   nav ul li {
+       margin: 10px 0; /* Espaçamento maior entre os itens na coluna */
+   }
+
+   img {
+       max-width: 90%; 
+   }
+}
+
 img {
    max-width: 80%; 
    height: auto; 
    border-radius: 10px;
    border: solid 3px #4a8c4a;
    margin: 20px auto; 
-}
-
-@media (max-width: 600px) {
-   img {
-       max-width: 90%; 
-   }
 }
 
 footer {
