@@ -82,9 +82,7 @@ img{
    max-width: 100%;
    height: auto;
    border-radius: 10px;
-   border-color: #185c23;
-   border: solid 5px
-
+   border: solid 5px #185c23;
 }
 section.potato > p{
    font-size: 1em;
