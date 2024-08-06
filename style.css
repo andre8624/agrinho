@@ -5,7 +5,7 @@
 }
 @media (max-width: 600px) {
    body {
-       font-size: 14px; /* Reduz o tamanho da fonte em telas menores */
+       font-size: 14px;
    }
 }
 .root{
