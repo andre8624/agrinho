@@ -97,4 +97,14 @@ section.carrot {
    border-left: 2px solid transparent; 
    height: 100px; 
    margin: 0 20px;}
-   
+
+   footer{
+         color: rgb(0, 0, 0);
+         background-color: #185f1b;
+         display: flex;
+         justify-content: space-around;
+         align-items:center;
+         border-radius: 10px;
+         border: #95a9af;
+       
+   }
