@@ -120,7 +120,6 @@ footer a.gradient {
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
 }
-
 p {
    font-size: clamp(1rem, 4vw, 2.5rem); 
    font-weight: bold;
