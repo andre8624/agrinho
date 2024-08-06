@@ -55,7 +55,7 @@ section {
 section.onion > p,
 section.potato > p {
    color: #2d3436;
-   font-size: clamp(1.8rem, 3.5vw, 2.5em); /* Aumentado o tamanho do <p> */
+   font-size: clamp(1.2rem, 3vw, 2em); /* Diminuído o tamanho do <p> */
    font-weight: bold;
 }
 
@@ -124,7 +124,7 @@ footer a.gradient {
 }
 
 p {
-   font-size: clamp(1.8rem, 4vw, 3.5rem); /* Aumentado o tamanho do <p> */
+   font-size: clamp(1.2rem, 4vw, 2.5rem); /* Diminuído o tamanho do <p> */
    font-weight: bold;
    line-height: 1.1;
    margin: 1rem 0;
