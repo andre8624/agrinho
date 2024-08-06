@@ -55,8 +55,8 @@ section {
 
 section.onion > p,
 section.potato > p {
-   color: #2d3436; /* Cinza escuro moderno */
-   font-size: clamp(1.5rem, 3vw, 2em);
+   color: #2d3436;
+   font-size: clamp(2rem, 3vw, 2em);
    font-weight: bold;
 }
 
