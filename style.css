@@ -62,7 +62,7 @@ section {
 section.onion > p,
 section.potato > p {
    color: black;
-   font-size: clamp(1.5rem, 3vw, 2em);
+   font-size: clamp(1.5rem, 3vw, 2em); /* Tamanho responsivo */
    font-weight: bold;
 }
 
@@ -97,10 +97,18 @@ nav ul li a:hover {
 
 /* Estilos de imagem */
 img {
-   max-width: 100%;
-   height: auto;
+   max-width: 80%; /* Ajusta o tamanho máximo das imagens */
+   height: auto; /* Mantém a proporção */
    border-radius: 10px;
    border: solid 3px #44b156;
+   margin: 0 auto; /* Centraliza a imagem se o contêiner permitir */
+}
+
+/* Responsividade para imagens em dispositivos móveis */
+@media (max-width: 600px) {
+   img {
+       max-width: 90%; /* Ajusta o tamanho máximo em telas menores */
+   }
 }
 
 /* Estilos de rodapé */
