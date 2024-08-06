@@ -108,5 +108,6 @@ section.carrot {
        
    }
       a{
+         text-decoration: dotted;
          color: rgb(255, 255, 255);
       }
