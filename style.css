@@ -95,7 +95,7 @@ nav ul li a:hover {
    background-color: #185c23;
 }
 
-/* Estilos de imagem */
+
 img {
    max-width: 80%; /* Ajusta o tamanho máximo das imagens */
    height: auto; /* Mantém a proporção */
@@ -104,21 +104,23 @@ img {
    margin: 0 auto; /* Centraliza a imagem se o contêiner permitir */
 }
 
-/* Responsividade para imagens em dispositivos móveis */
+
 @media (max-width: 600px) {
    img {
-       max-width: 90%; /* Ajusta o tamanho máximo em telas menores */
+       max-width: 90%; 
    }
 }
 
-/* Estilos de rodapé */
+
+
 footer {
    background-color: #185f1b;
    display: flex;
    justify-content: center;
    align-items: center;
-   padding: 15px; /* Adiciona espaçamento interno */
-   margin-top: 20px; /* Adiciona espaço acima do footer */
+   padding: 15px; 
+   margin-top: 20px; 
+   text-align: center;
 }
 
 footer a.gradient {
@@ -127,7 +129,7 @@ footer a.gradient {
    font-size: clamp(1.5rem, 3vw, 1.5em);
 }
 
-/* Estilo da classe gradient */
+
 .gradient {
    background-image: linear-gradient(to bottom, rgb(51, 255, 0), rgb(251, 255, 0), rgb(0, 17, 255));
    background-clip: text;
@@ -135,10 +137,10 @@ footer a.gradient {
    -webkit-text-fill-color: transparent;
 }
 
-/* Parágrafo */
+
 p {
    font-size: clamp(1.5rem, 4vw, 3rem);
    font-weight: bold;
    line-height: 1.1;
-   margin: 1rem 0; /* Adiciona espaço entre os parágrafos */
+   margin: 1rem 0; 
 }
