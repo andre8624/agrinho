@@ -118,7 +118,7 @@ section.carrot {
       }
    
       .gradient {
-         background-image: linear-gradient(to bottom, rebeccapurple, steelblue, turquoise);
+         background-image: linear-gradient(to bottom, rgb(236, 255, 67), rgb(245, 253, 126), rgb(245, 252, 153));
          background-clip: text;
          -webkit-background-clip: text;          
       -webkit-text-fill-color: transparent;
