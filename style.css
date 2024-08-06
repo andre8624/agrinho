@@ -99,8 +99,6 @@ section.carrot {
    margin: 0 20px;}
 
    footer{
-      
-         color: rgb(0, 0, 0);
          background-color: #185f1b;
          display: flex;
          justify-content: space-around;
