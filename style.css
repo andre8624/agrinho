@@ -83,7 +83,7 @@ img{
    height: auto;
    border-radius: 10px;
    border-color: #185c23;
-   border: 5px;
+   border: solid 5px
 
 }
 section.potato > p{
