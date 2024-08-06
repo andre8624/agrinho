@@ -1,53 +1,52 @@
-/* Reset básico */
+
 * {
    margin: 0;
    padding: 0;
    box-sizing: border-box;
 }
 
-/* Estilos do body */
+
 body {
    background-color: rgb(237, 247, 185);
    font-family: 'Roboto', sans-serif;
    line-height: 1.6;
 }
 
-/* Tamanho da fonte em dispositivos móveis */
+
 @media (max-width: 600px) {
    body {
        font-size: 14px;
    }
 }
 
-/* Container */
+
 .container {
    width: 80%;
    padding: 2rem;
 }
 
-/* Estilos do Header */
+
 header {
    position: relative;
    display: flex;
-   justify-content: center; /* Centraliza os itens */
+   justify-content: center;
    align-items: center;
    text-align: center;
    background: linear-gradient(rgb(37, 141, 77), green);
-   padding: 20px; /* Adiciona espaçamento interno */
+   padding: 20px; 
 }
 
 header > h1 {
    color: rgb(255, 255, 255);
    font-size: clamp(2rem, 5vw, 3em);
-   margin: 0; /* Remove margens */
-}
+   margin: 0; 
 
-/* Estilos de H2 */
+
 body > h2 {
    color: black;
    font-size: clamp(2rem, 8vw, 5em);
    text-align: center;
-   margin: 20px 0; /* Adiciona margem em cima e embaixo */
+   margin: 20px 0; 
 }
 
 /* Seções */
@@ -55,18 +54,17 @@ section {
    background-color: transparent;
    display: flex;
    text-align: center;
-   flex-direction: column; /* Garante que o conteúdo da seção seja empilhado */
-   margin: 20px 0; /* Adiciona espaçamento entre seções */
-}
+   flex-direction: column; 
+   margin: 20px 0; 
 
 section.onion > p,
 section.potato > p {
    color: black;
-   font-size: clamp(1.5rem, 3vw, 2em); /* Tamanho responsivo */
+   font-size: clamp(1.5rem, 3vw, 2em); 
    font-weight: bold;
 }
 
-/* Estilos de navegação */
+
 nav {
    padding: 10px;
    background-color: rgb(37, 141, 77);
@@ -97,11 +95,11 @@ nav ul li a:hover {
 
 
 img {
-   max-width: 80%; /* Ajusta o tamanho máximo das imagens */
-   height: auto; /* Mantém a proporção */
+   max-width: 80%; 
+   height: auto; 
    border-radius: 10px;
    border: solid 3px #44b156;
-   margin: 0 auto; /* Centraliza a imagem se o contêiner permitir */
+   margin: 0 auto; 
 }
 
 
