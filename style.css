@@ -3,24 +3,20 @@
    padding: 0;
    box-sizing: border-box;
 }
-
 body {
    background-color: #e6f7e6; 
    font-family: 'Roboto', sans-serif;
    line-height: 1.6;
 }
-
 @media (max-width: 600px) {
    body {
        font-size: 14px;
    }
 }
-
 .container {
    width: 80%;
    padding: 2rem;
 }
-
 header {
    position: relative;
    display: flex;
@@ -30,20 +26,17 @@ header {
    background: linear-gradient(#346934, #27883e, #56b96f);
    padding: 20px;
 }
-
 header > h1 {
    color: rgb(255, 255, 255);
    font-size: clamp(2rem, 5vw, 3em);
    margin: 0;
 }
-
 body > h2 {
    color: #2d3436; 
    font-size: clamp(2rem, 8vw, 5em);
    text-align: center;
    margin: 20px 0;
 }
-
 section {
    background-color: transparent;
    display: flex;
@@ -51,20 +44,17 @@ section {
    flex-direction: column;
    margin: 20px 0;
 }
-
 section.onion > p,
 section.potato > p {
    color: #2d3436;
    font-size: clamp(1rem, 3vw, 2em); 
    font-weight: bold;
 }
-
 nav {
    padding: 10px;
    background-color: #346934; 
    text-align: center;
 }
-
 nav ul {
    list-style-type: none;
    padding: 0;
@@ -72,12 +62,10 @@ nav ul {
    flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
    justify-content: center; /* Centraliza os itens */
 }
-
 nav ul li {
    display: inline;
    margin: 5px; /* Adiciona um pouco de margem entre os itens */
 }
-
 nav ul li a {
    color: #ffffff; 
    text-decoration: none;
@@ -85,20 +73,17 @@ nav ul li a {
    padding: 10px 15px;
    transition: background-color 0.3s ease;
 }
-
 nav ul li a:hover {
    background-color: #113f08; 
 }
-
-/* Ajustes para telas pequenas */
 @media (max-width: 600px) {
    nav ul {
-       flex-direction: column; /* Muda para coluna em telas pequenas */
-       align-items: center; /* Centraliza os itens verticalmente */
+       flex-direction: column; 
+       align-items: center; 
    }
 
    nav ul li {
-       margin: 10px 0; /* Espaçamento maior entre os itens na coluna */
+       margin:
    }
 
    img {
