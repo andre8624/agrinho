@@ -5,7 +5,7 @@
 }
 
 body {
-   background-color: #f8f4e3; /* Bege claro */
+   background-color: rgb(237, 247, 185);
    font-family: 'Roboto', sans-serif;
    line-height: 1.6;
 }
@@ -28,18 +28,18 @@ header {
    justify-content: center;
    align-items: center;
    text-align: center;
-   background: linear-gradient(#4b8e1c, #aeeeee); /* Verde musgo e azul claro */
+   background: linear-gradient(rgb(37, 141, 77), green);
    padding: 20px;
 }
 
 header > h1 {
-   color: #ffffff; /* Branco para contraste */
+   color: rgb(255, 255, 255);
    font-size: clamp(2rem, 5vw, 3em);
    margin: 0;
 }
 
 body > h2 {
-   color: #4b8e1c; /* Verde musgo */
+   color: black;
    font-size: clamp(2rem, 8vw, 5em);
    text-align: center;
    margin: 20px 0;
@@ -55,14 +55,14 @@ section {
 
 section.onion > p,
 section.potato > p {
-   color: #4b8e1c; /* Verde musgo */
+   color: black;
    font-size: clamp(1.5rem, 3vw, 2em);
    font-weight: bold;
 }
 
 nav {
    padding: 10px;
-   background-color: #aeeeee; /* Verde limão */
+   background-color: rgb(37, 141, 77);
    text-align: center;
 }
 
@@ -77,7 +77,7 @@ nav ul li {
 }
 
 nav ul li a {
-   color: #ffffff; /* Branco para contraste */
+   color: #fff;
    text-decoration: none;
    font-size: 1.25em;
    padding: 10px 15px;
@@ -85,41 +85,41 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-   background-color: #f47323; /* Terracota */
+   background-color: #185c23;
 }
 
 img {
-   max-width: 80%;
-   height: auto;
+   max-width: 80%; 
+   height: auto; 
    border-radius: 10px;
-   border: solid 3px #4b8e1c; /* Verde musgo */
-   margin: 20px auto;
+   border: solid 3px #44b156;
+   margin: 20px auto; /* Margem superior e inferior para melhor espaçamento */
 }
 
 @media (max-width: 600px) {
    img {
-       max-width: 90%;
+       max-width: 90%; 
    }
 }
 
 footer {
-   background-color: #aeeeee; /* Verde limão */
+   background-color: #185f1b;
    display: flex;
    justify-content: center;
    align-items: center;
-   padding: 15px;
-   margin-top: 20px;
+   padding: 15px; 
+   margin-top: 20px; 
    text-align: center;
 }
 
 footer a.gradient {
    text-decoration: none;
-   color: #ffffff; /* Branco para contraste */
+   color: rgb(255, 255, 255);
    font-size: clamp(1.5rem, 3vw, 1.5em);
 }
 
 .gradient {
-   background-image: linear-gradient(to bottom, #ffccbc, #ffab91); /* Tons de coral claros */
+   background-image: linear-gradient(to bottom, rgb(51, 255, 0), rgb(251, 255, 0), rgb(0, 17, 255));
    background-clip: text;
    -webkit-background-clip: text;
    -webkit-text-fill-color: transparent;
