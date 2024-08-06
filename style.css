@@ -83,6 +83,8 @@ img{
    height: auto;
    border-radius: 10px;
    border-color: #185c23;
+   border: 5px;
+
 }
 section.potato > p{
    font-size: 1em;
