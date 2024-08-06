@@ -100,7 +100,7 @@ section.carrot {
 
    footer{
       
-         color: rgb(0, 0, 0);
+         color: black;
          background-color: #185f1b;
          display: flex;
          justify-content: space-around;
@@ -108,7 +108,4 @@ section.carrot {
          border-radius: 2px;
          border: #95a9af;
        
-   }
-      a{
-         color: black;
-      }
+   
