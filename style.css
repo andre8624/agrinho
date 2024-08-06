@@ -8,8 +8,8 @@
 /* Estilos do body */
 body {
    background-color: rgb(237, 247, 185);
-   font-family: 'Roboto', sans-serif; /* Adicione sua fonte preferida aqui */
-   line-height: 1.6; /* Melhora a legibilidade do texto */
+   font-family: 'Roboto', sans-serif;
+   line-height: 1.6;
 }
 
 /* Tamanho da fonte em dispositivos móveis */
@@ -29,23 +29,25 @@ body {
 header {
    position: relative;
    display: flex;
-   justify-content: space-around;
+   justify-content: center; /* Centraliza os itens */
    align-items: center;
    text-align: center;
    background: linear-gradient(rgb(37, 141, 77), green);
+   padding: 20px; /* Adiciona espaçamento interno */
 }
 
 header > h1 {
    color: rgb(255, 255, 255);
-   font-size: clamp(2rem, 5vw, 3em); /* Tamanho responsivo */
-   margin-bottom: 30px;
+   font-size: clamp(2rem, 5vw, 3em);
+   margin: 0; /* Remove margens */
 }
 
 /* Estilos de H2 */
 body > h2 {
    color: black;
-   font-size: clamp(2rem, 8vw, 5em); /* Tamanho responsivo */
+   font-size: clamp(2rem, 8vw, 5em);
    text-align: center;
+   margin: 20px 0; /* Adiciona margem em cima e embaixo */
 }
 
 /* Seções */
@@ -54,12 +56,13 @@ section {
    display: flex;
    text-align: center;
    flex-direction: column; /* Garante que o conteúdo da seção seja empilhado */
+   margin: 20px 0; /* Adiciona espaçamento entre seções */
 }
 
 section.onion > p,
 section.potato > p {
    color: black;
-   font-size: clamp(1.5rem, 3vw, 2em); /* Tamanho responsivo */
+   font-size: clamp(1.5rem, 3vw, 2em);
    font-weight: bold;
 }
 
@@ -83,7 +86,7 @@ nav ul li {
 nav ul li a {
    color: #fff;
    text-decoration: none;
-   font-size: 1.25em; /* Aumentar um pouco o tamanho */
+   font-size: 1.25em;
    padding: 10px 15px;
    transition: background-color 0.3s ease;
 }
@@ -104,15 +107,16 @@ img {
 footer {
    background-color: #185f1b;
    display: flex;
-   justify-content: space-around;
+   justify-content: center;
    align-items: center;
-   padding: 15px; /* Adiciona algum espaço interno */
+   padding: 15px; /* Adiciona espaçamento interno */
+   margin-top: 20px; /* Adiciona espaço acima do footer */
 }
 
 footer a.gradient {
    text-decoration: none;
    color: rgb(255, 255, 255);
-   font-size: clamp(1.5rem, 3vw, 1.5em); /* Tamanho responsivo */
+   font-size: clamp(1.5rem, 3vw, 1.5em);
 }
 
 /* Estilo da classe gradient */
@@ -125,7 +129,7 @@ footer a.gradient {
 
 /* Parágrafo */
 p {
-   font-size: clamp(1.5rem, 4vw, 3rem); /* Tamanho responsivo */
+   font-size: clamp(1.5rem, 4vw, 3rem);
    font-weight: bold;
    line-height: 1.1;
    margin: 1rem 0; /* Adiciona espaço entre os parágrafos */
